@@ -1,3 +1,5 @@
+The code is ready to be run in Google Colab. However, the user can easily modify the build_arg_parser() built into the code to run in any arbitrary environment.
+
 IMPORTANT SCIENTIFIC CONVENTION
 --------------------------------
 The Interfile header describes the volume as matrix [1..3] = (X,Y,Z) =
@@ -62,4 +64,4 @@ The script is intentionally conservative:
 - validation is cycle-level
 - one rolling latest checkpoint is overwritten each epoch for Colab resume
 - best validation and final checkpoints are retained
-- conventional registration is optional and is NEVER used as ground truth.
+- conventional registration is optional and is NEVER used as ground truth (GT).
