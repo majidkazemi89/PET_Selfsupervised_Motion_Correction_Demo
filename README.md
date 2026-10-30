@@ -62,4 +62,4 @@ The script is intentionally conservative:
 - validation is cycle-level
 - one rolling latest checkpoint is overwritten each epoch for Colab resume
 - best validation and final checkpoints are retained
-- conventional registration is optional and is NEVER used as GT.
+- conventional registration is optional and is NEVER used as ground truth.
