@@ -17,7 +17,7 @@ Flow channels are always:
     flow[:, 1] = u_y  (H / Y direction), voxels
     flow[:, 2] = u_z  (D / Z direction), voxels
 
-The network predicts a BACKWARD/SAMPLING deformation field defined on the
+The network predicts a BACKWARD/SAMPLING deformation vector field (DVF) defined on the
 REFERENCE grid:
     warped_moving(x_ref) = moving(x_ref + flow_backward(x_ref))
 
